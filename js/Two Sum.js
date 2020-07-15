@@ -17,7 +17,6 @@ var twoSum = function(nums, target) {
   if (nums[j] == target - nums[i]) {
   map.push(i)
   map.push(j)
-  
   }
   }
   }
